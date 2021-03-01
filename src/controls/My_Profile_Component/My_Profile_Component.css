@@ -1,0 +1,95 @@
+.MyProfileComonentVisible{
+    position: fixed;
+    top: 0;
+    right: 30px;
+    z-index: 1;
+    box-shadow: 1px 1px 10px rgb(199, 195, 195);
+    background-color: white;
+}
+.MyProfileComonentHidden{
+    display: none;
+}
+.MyProfileComonentVisible p,
+.MyProfileComonentVisible h2
+{
+    margin: 0;
+}
+.MPC-My-Details-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px;
+    border-bottom: 1px solid rgb(224, 213, 213);
+}
+.MPC-MDC-My-Image-Container{
+    position: relative;
+}
+.MPC-MDC-My-Image-Container>img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.MPC-MDC-My-Image-Container>div{
+    width: 13px;
+    height: 13px;
+    background-color: rgb(54, 230, 54);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 2px;
+    right: -2px;
+}
+.MPC-MDC-My-Name{
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 5px;
+}
+.MPC-MDC-My-Profession{
+    font-size: 14px;
+    color: rgb(131, 122, 122);
+}
+.MPC-Links-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid rgb(224, 213, 213);
+}
+.MPC-Links-Container a{
+    text-decoration: none;
+}
+.MPC-LC-Links{
+    width: 100%;
+    color: rgb(88, 75, 75);
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 13px 0 13px 20px;
+    box-sizing: border-box;
+    margin: 0;
+}
+.MPC-LC-Links:hover{
+    background-color: rgb(233, 233, 233);
+}
+.MPC-Revenue-Number-Container{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(224, 213, 213);
+}
+.MPC-Revenue-Number-Container>div{
+    margin-left: 10px;
+}
+.MPC-Revenue-Number-Container>div>h2{
+    font-size: 20px;
+}
+.MPC-Revenue-Number-Container>div>p{
+    font-size: 15px;
+    color: darkgrey;
+}
+.MPC-Social-Icons-Container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

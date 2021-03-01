@@ -1,0 +1,110 @@
+.Login-Form-Component{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../assets/images/Sign_In_Page_Background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    margin: 0;
+}
+.LFC-Left-Content-Section{
+   width: 35%;
+   height: 600px;
+   background-image: url("../../assets/images/SIgn_In_Form_Background.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   border: 2px solid white;
+   box-sizing: border-box;
+
+}
+.LFC-Right-Form-Container{
+   width: 35%;
+   height: 600px;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+}
+.LFC-RFC-Buttons-Container{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.LFC-RLF-BC-LoginBtn{
+  border: 1px solid darkgrey;
+  outline: none;
+  background: white;
+  padding: 8px 15px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.LFC-RLF-BC-RegisterBtn{
+  border: 0;
+  outline: none;
+  background: rgb(22, 22, 197);
+  color: white;
+  padding: 9px 15px;
+  cursor: pointer;
+}
+.LFC-RFC-Form{
+    width: 80%;
+    height: 350px;
+}
+.LFC-RFC-F-Heading{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px 0 30px 0;
+}
+.LFC-RFC-F-ICs-InputsHeadings{
+    font-size: 14px;
+}
+.LFC-RFC-F-ICs-Inputs{
+    width: 100%;
+    padding: 8px 0 8px 15px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+}
+.LFC-RFC-F-Submit-Input-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+.LFC-RFC-F-Submit-Input{
+    width: 70%;
+    border: 0;
+    outline: none;
+    padding: 20px;
+    background: rgb(22, 22, 197);
+    color: white;
+    font-size: 15px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.LFC-RFC-F-Last-Section-Visible{
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.LFC-RFC-F-Last-Section-Visible a{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+}
+.LFC-RFC-F-Last-Section-Hidden{
+    display: none;
+}

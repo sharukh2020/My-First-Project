@@ -1,0 +1,39 @@
+.SidebarComponent{
+    width: 20%;
+    height: 90vh;
+    box-shadow: 0 1px 10px rgb(233, 222, 222);
+}
+.SidebarComponent p{
+    margin: 0;
+}
+.SBC-Menu-Heading{
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bold;
+}
+.SBC-MIC-MenuItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    padding: 10px 5px 10px 20px;
+    box-sizing: border-box;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.SBC-MIC-MenuItems:hover{
+    background-color: rgb(231, 234, 235);
+    color: rgb(67, 67, 187);
+}
+.SBC-MIC-MI-Name-Container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40%;
+}
+.SBC-MIC-MI-Name-Container>p{
+    margin-left: 15px;
+    font-size: 15px;
+}

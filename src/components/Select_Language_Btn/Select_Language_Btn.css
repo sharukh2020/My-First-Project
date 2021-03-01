@@ -1,0 +1,60 @@
+.SelectLanguageBtnContainer{
+    position: fixed;
+    top: 30px;
+    right: 100px;
+    z-index: 1;
+}
+.SelectLanguageBtnContainer>button{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 0;
+  outline: none;
+  background-color: rgb(34, 34, 156);
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+} 
+.SLBC-Language-Btns-Container-A{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: 1px 1px 10px rgb(216, 204, 204);
+    background-color: white;
+}
+.SLBC-Language-Btns-Container-B{
+    display: none;
+}
+.SLBC-LBC-LnaguageBtns{
+    border: 0;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: rgb(32, 95, 230);
+    color: white;
+    margin-bottom: 10px;
+    font-size: 11px;
+    cursor: pointer;
+}
+@media(max-width:420px),(min-width:420px){
+    .SelectLanguageBtnContainer{
+        position: absolute;
+        top: 10px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+    .SelectLanguageBtnContainer>button{
+      padding: 5px 10px;
+      font-size: 12px;
+    } 
+}
+@media(min-width:992px){
+    .SelectLanguageBtnContainer{
+        position: absolute;
+        top: 30px;
+        right: 100px;
+    }
+}

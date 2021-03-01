@@ -1,0 +1,120 @@
+.HeaderComponent{
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 10px rgb(214, 209, 209);
+    position: relative;
+}
+.HeaderComponent p{
+    margin: 0;
+}
+.HC-First-Section>p{
+   font-weight: bold;
+}
+.HC-Second-Section{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HC-Second-Section>input{
+    width: 100%;
+    padding: 10px 0 10px 30px;
+    border-radius: 5px;
+    outline: none;
+}
+.HC-SS-Input-A{
+    border: 1px solid rgb(207, 198, 198);
+}
+  
+.HC-SS-Input-B{
+    border: 2px solid rgb(33, 33, 182);
+}
+.HC-Third-Section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HC-TS-First-Icon-Container,
+.HC-TS-Second-Icon-Container,
+.HC-TS-Third-Icon-Container
+{
+    position: relative;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.HC-TS-First-Icon-Container:hover,
+.HC-TS-Second-Icon-Container:hover,
+.HC-TS-Third-Icon-Container:hover,
+.HC-TS-MyProfile-Link-Container:hover,
+.HC-Fourth-Section:hover
+{
+    background-color: rgb(231, 234, 235);
+}
+.HC-TS-FIC-Number-Container,
+.HC-TS-SIC-Number-Container
+{
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: x-small;
+    padding: 3px;
+    font-weight: bold;
+}
+.HC-TS-FIC-Number-Container{
+    background-color:chocolate;
+}
+.HC-TS-SIC-Number-Container{
+    background-color: rgb(11, 177, 11);
+}
+.HC-TS-MyProfile-Link-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 60px;
+    height: 65px;
+    padding: 0 10px 0 20px;
+}
+.HC-TS-MLC-Image-Container{
+    position: relative;
+}
+.HC-TS-MLC-Image-Container>img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.HC-TS-MLC-Image-Container>div{
+    width: 13px;
+    height: 13px;
+    background-color: rgb(54, 230, 54);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 2px;
+    right: 1px;
+}
+.HC-Fourth-Section{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+}

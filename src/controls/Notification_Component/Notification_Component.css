@@ -1,0 +1,127 @@
+.NotificationComponent-A{
+    position: absolute;
+    top: 0;
+    right: 40px;
+    width: 43%;
+    box-shadow: 1px 1px 10px rgb(216, 208, 208);
+    border-radius: 5px;
+    z-index: 1;
+    background-color: white;
+}
+.NotificationComponent-B{
+    display: none;
+}
+.NC-UpperPart{
+    padding: 10px;
+}
+.NC-Heading-Container{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-image: url("../../assets//images/hero-9.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    color: white;
+    position: relative;
+}
+.NC-HC-TextContentSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding:20px 0 ;
+}
+.NC-HC-GradientSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+    background-image: linear-gradient(to right,rgb(69, 69, 156),rgb(125, 125, 199),rgb(69, 69, 156));
+    opacity: 0.6;
+    color: transparent;
+    padding:20px 0 ;
+}
+.NC-HC-Heading{
+    font-size: 27px;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+.NC-HC-Notifictaion-Number{
+    font-size: 15px;
+}
+.NC-HC-Notifictaion-Number>span{
+    color: lightgreen;
+    font-weight: bold;
+}
+.NC-Links-Section{
+    width: 100%;
+}
+.NC-LS-Links-Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin:0 auto;
+}
+.NC-LS-Links-Container>p{
+    font-size: 15px;
+    padding: 20px 0;
+    width: 33.33%;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 500;
+}
+.NC-LS-Links-Container>p:hover{
+    background-color: rgb(231, 234, 235);
+}
+.NC-LS-LC-Link-A{
+    color: rgb(117, 106, 106);
+}
+.NC-LS-LC-Link-B{
+    color: rgb(81, 81, 223);
+    border-bottom: 2px solid rgb(81, 81, 223);
+}
+.NC-LS-LinkedSections-Container{
+    width: 100%;
+    padding-top: 30px;
+}
+.NC-LS-LC-Linked-Section-A{
+    display: none;
+}
+.NC-LS-LC-Linked-Section-B{
+    width: 100%;
+    height: 200px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NC-LearnMoreBtn-Container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+    border-top: 1px solid rgb(238, 231, 231);
+}
+.NC-LearnMoreBtn-Container>button{
+    border: 0;
+    outline: none;
+    background-color: rgb(92, 92, 189);
+    color: white;
+    padding: 8px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+

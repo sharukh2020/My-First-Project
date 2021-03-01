@@ -1,0 +1,77 @@
+.Email-Verification-Component{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../assets/images/Sign_In_Page_Background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    margin: 0;
+}
+.EVC-MainContainer{
+    width: 40%;
+    height: 200px;
+    padding: 30px;
+    background: white;
+    border-radius: 5px;
+}
+.EVC-Instruction{
+    width: 100%;
+    padding: 20px 0;
+    font-size: 17px;
+    text-align: center;
+}
+.EVC-Form{
+    width: 100%;
+}
+.EVC-F-Verification-Input{
+    width: 100%;
+    padding: 10px 15px;
+    outline: none;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+.EVC-F-Verify-Btn-Container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+.EVC-F-VBC-Left-Section>p{
+    color: rgb(22, 22, 197);
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+.EVC-F-VBC-Right-Section{
+    width:37% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.EVC-F-VBC-Right-Section button{
+    border: 0;
+    outline: none;
+    background: rgb(210, 230, 238);
+    color: rgb(22, 22, 197);
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-weight:600;
+    font-size: 15px;
+    cursor: pointer;
+}
+.EVC-F-VBC-Right-Section input{
+    border: 0;
+    outline: none;
+    background:rgb(22, 22, 197);
+    color:white ;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-weight:500;
+    font-size: 15px;
+    cursor: pointer;
+}
